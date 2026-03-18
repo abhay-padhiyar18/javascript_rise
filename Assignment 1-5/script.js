@@ -79,29 +79,38 @@
 
 // Assignment 4  Shopping Eligibility Checker
 
+// let isMember = true
+// let cartValue =1500;
+
+// if(( isMember == true  && cartValue > 1000 )|| cartValue >2000 ){
+//   console.log("You Eligible for free delivery!!")
+// } else{
+//   console.log('you are not eligible AND You pay the Delivery Charges')
+// }
+
 // --------------------------------------------------------------------------------------
 
 // Assignment 5 Grade Evalution System
 
-let inputMarks = prompt("Enter Marks of Students");
-inputMarks = Number(inputMarks);
+// let inputMarks = prompt("Enter Marks of Students");
+// inputMarks = Number(inputMarks);
 
-let grade;
+// let grade;
 
-if (inputMarks < 0 || inputMarks > 100) {
-  console.log("Invalid input");
-} 
-else if (inputMarks >= 90) {
-  grade = "A";
-} 
-else if (inputMarks >= 75) {
-  grade = "B";
-} 
-else if (inputMarks >= 50) {
-  grade = "C";
-} 
-else {
-  grade = "fail";
-}
+// if (inputMarks < 0 || inputMarks > 100) {
+//   console.log("Invalid input");
+// } 
+// else if (inputMarks >= 90) {
+//   grade = "A";
+// } 
+// else if (inputMarks >= 75) {
+//   grade = "B";
+// } 
+// else if (inputMarks >= 50) {
+//   grade = "C";
+// } 
+// else {
+//   grade = "fail";
+// }
 
-alert(`Your grade is ${grade}`);
+// alert(`Your grade is ${grade}`);
