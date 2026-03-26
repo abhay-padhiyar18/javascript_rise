@@ -8,14 +8,14 @@
 
 // // Discount Logic
 // if (age < 18) {
-//     discountPercent += 10;
+//     discountPercent = discountAmount + 10;
 // } else if (age >= 60) {
-//     discountPercent += 20;
+//     discountPercent =  discountAmount + 20;
 // }
 
 // // Extra Discount
 // if (purchaseAmount > 5000) {
-//     discountPercent += 5;
+//     discountPercent = discountAmount +  5;
 // }
 
 // // Calculate discount amount
