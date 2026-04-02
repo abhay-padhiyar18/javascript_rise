@@ -31,46 +31,46 @@
 // 2. Order Management System
 
 const orders = [
-    {
-        orderId: 1,
-        customerName: 'Shakti',
-        items: [
-            { itemName: 'Laptop', quantity: 1, price: 1000 },
-            { itemName: 'Mouse', quantity: 2, price: 500 },
-        ],
-    },
-    {
-        orderId: 2,
-        customerName: 'Kushal',
-        items: [
-            { itemName: 'Keyboard', quantity: 1, price: 1000 },
-            { itemName: 'Mouse', quantity: 1, price: 700 },
-            { itemName: 'Bag', quantity: 1, price: 3500 },
-        ],
-    },
-    {
-        orderId: 3,
-        customerName: 'Shyam',
-        items: [
-            { itemName: 'iPhone', quantity: 1, price: 90000 },
-            { itemName: 'Laptop Bag', quantity: 3, price: 2000 },
-        ],
-    },
+  {
+    orderId: 101,
+    customerName: "Amit",
+    items: [
+      { itemName: "Tablet", quantity: 2, price: 15000 },
+      { itemName: "Charger", quantity: 1, price: 800 },
+    ],
+  },
+  {
+    orderId: 102,
+    customerName: "Riya",
+    items: [
+      { itemName: "Headphones", quantity: 1, price: 2500 },
+      { itemName: "Smart Watch", quantity: 1, price: 7000 },
+      { itemName: "Power Bank", quantity: 2, price: 1200 },
+    ],
+  },
+  {
+    orderId: 103,
+    customerName: "Vikas",
+    items: [
+      { itemName: "Camera", quantity: 1, price: 55000 },
+      { itemName: "Tripod", quantity: 1, price: 3000 },
+    ],
+  },
 ];
 const result = orders.map((order) => {
-    let totalAmount = 0;
-    let totalQuantity = 0;
+  let totalAmount = 0;
+  let totalQuantity = 0;
 
-    order.items.forEach((item) => {
-        totalAmount += item.price * item.quantity;
-        totalQuantity += item.quantity;
-    });
+  order.items.forEach((item) => {
+    totalAmount += item.price * item.quantity;
+    totalQuantity += item.quantity;
+  });
 
-    return {
-        orderId: order.orderId,
-        totalAmount: totalAmount,
-        totalQuantity: totalQuantity,
-    };
+  return {
+    orderId: order.orderId,
+    totalAmount: totalAmount,
+    totalQuantity: totalQuantity,
+  };
 });
 
 console.log(result);
